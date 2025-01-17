@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --cream: #F2EAE2;
+    --Gunmental: #1C232B;
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --Deep-aquamarine: #1A4032;
+}
+
+body{
+    background-color: var(--cream);
+}
+
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+figure{
+    background-color: var(--White);
+    width: 343px;
+    height: 611px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 2em 1em ;
+}
+figure #p-img{
+    width: 343px ;
+    height: 240px;
+    max-inline-size: 100%;
+}
+
