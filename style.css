@@ -23,16 +23,18 @@ main{
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 figure{
     background-color: var(--White);
     width: 343px;
-    height: 611px;
+    min-height: 620px;
     border-radius: 10px;
     overflow: hidden;
-    margin: 2em 1em ;
+    margin: 1.5em 1em;
+    font-family: 'Montserrat', serif;
 }
 figure #p-img{
     width: 343px ;
@@ -40,3 +42,58 @@ figure #p-img{
     max-inline-size: 100%;
 }
 
+figure .product-dec {
+    padding: 1.3em;
+}
+
+#p-name {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0.4em 0;
+}
+
+#product{
+    letter-spacing: 4px;
+}
+
+#description{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0.8em;
+    line-height: 1.6em;
+}
+
+#product, #description, #slash{
+    color: var(--Dark-grayish-blue);
+}
+
+#price{
+    color: var(--Dark-cyan);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.price #slash{
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+
+button{
+    color: var(--White);
+    background-color: var(--Dark-cyan);
+    border: 0 solid var(--Dark-cyan);
+    border-radius: 6px;
+    font-family: 'Montserrat', serif;
+    font-weight: 560;
+    font-size: 16px;
+    display: block;
+    margin: 1rem auto 0 auto;
+    padding: 0.7rem 4rem;
+}
+
+button:hover{
+    background-color: var(--Deep-aquamarine);
+}
