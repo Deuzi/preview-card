@@ -10,7 +10,14 @@
     <main>
         <div class="cart-container">
             <figure id ="cart-view">
-                <img id="p-img" src="product-preview-card-component-main/images/image-product-mobile.jpg" alt="product.jpg">
+
+                <picture>
+                    <source media="(min-width: 767px)" srcset="product-preview-card-component-main/images/image-product-desktop.jpg">
+                    <source media="(max-width: 766px)" srcset="product-preview-card-component-main/images/image-product-mobile.jpg">
+
+                    <img id="p-img" src="product-preview-card-component-main/images/image-product-mobile.jpg" alt="product.jpg">
+                </picture>
+                
 
                 <figcaption class="product-dec">
                     <p id ="product">
